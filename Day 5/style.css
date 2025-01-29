@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbd6e3; /* Light gray background */
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666; /* Gray text color */
+    margin-bottom: 20px;
+}
+
+.link-container {
+    margin-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #333; /* Dark gray link color */
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.link:hover {
+    background-color: #816d6d; /* Light gray hover background */
+}

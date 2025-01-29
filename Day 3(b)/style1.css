@@ -1,0 +1,15 @@
+.notice-board {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+.notice-board-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .notice-board-date {
+    color: #888;
+    font-size: smaller;
+  }
