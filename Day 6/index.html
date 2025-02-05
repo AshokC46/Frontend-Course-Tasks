@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+
+
+<script>
+
+    const carName = {            // we can create like this if we know all the properties at the time of creation.
+        name: "Audi",            //It is also a concise and simple to read. 
+        price: 1000,
+        modal: "A6"
+    }
+
+    console.log(carName)
+
+
+    const carName2 = {};        // If we don't know all the properties of the object. 
+    carName2.name = "Benz";     //or if you need to add them dynamically, this empty object is the best approach.
+    carName2.price = 1800;
+    carName2.modal = "Gls";
+
+    console.log(carName2)
+
+
+    const carName3 = {};                   //This is also an another approach with more flexible than dot notation.
+    carName3["company name !"] = "volkswagen";           //in dot notation it only allows proper property name 
+    carName3["modal-123"] = "polo";                     //it wont allow spaces, special characters. 
+    carName3["price of car"]   = 3000                 // Bracket notation allows spaces,special characters, numbers.
+
+    console.log(carName3)
+
+
+    const fruits1 = ["apple", "banana", "orange"];
+
+    console.log(fruits1)
+
+</script>
